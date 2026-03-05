@@ -100,6 +100,7 @@ janky_bar <- ggplot(obs_2, aes(x = month, fill = pheno)) +
   labs(
     y = "Number of observations",
     x = "Month",
+    fill = "Pheno phase",
     title = "Seasonal Phenology Timing")
 
 print(janky_bar)
